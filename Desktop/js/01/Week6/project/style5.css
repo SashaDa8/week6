@@ -1,0 +1,189 @@
+.container {
+    display: grid;
+    grid-template-columns: 167px repeat(7, 1fr) 197px;
+    grid-template-rows: 100px 50px 350px 10px 440px;
+    height: 100vw;
+    background-color: #272727;
+}
+
+#container1 {
+    display: grid;
+    grid-template-columns: 180px repeat(3, 80px) 180px 200px 100px;
+    grid-template-rows: 100px;
+    background-color: #272727;
+    text-align: center;
+    grid-auto-columns: minmax(0, auto);
+    align-content: space-between;
+    gap: 30px;
+    background-color: #2F2F2F;
+}
+
+#con1 {
+    text-align: left;
+}
+
+#con1,
+#con2,
+#con3,
+#con4,
+#con5,
+#con6,
+#con7 {
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+
+
+.hr0 {
+    width: auto;
+    color: rgb(158, 149, 149);
+}
+
+.hr1 {
+    width: auto;
+    color: white;
+
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+span {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cont {
+    color: white;
+    background-color:
+        #272727;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.cont1 {
+    grid-area: 1/2/2/7;
+}
+
+.cont2 {
+    grid-area: 1/7/2/9;
+    text-align: right;
+    padding: 30px;
+}
+
+
+.cont3 {
+    grid-area: 1/9/2/10;
+
+}
+
+.cont4 {
+    background-color: #2F2F2F;
+}
+
+.cont5 {
+    grid-area: 2/2/3/9;
+}
+
+.cont6 {
+    grid-column: 2/9/3/10;
+    background-color: #2F2F2F;
+}
+
+.cont19 {
+    grid-area: 3/7/4/9;
+}
+
+.cont22 {
+    grid-area: 4/2/5/9;
+    text-align: center;
+}
+
+.cont25 {
+    margin-top: 50px;
+    grid-area: 5/2/6/7;
+    background: url(./assets/images/original\ \(1\).jpg);
+
+}
+
+.cont26 {
+    grid-area: 5/7/6/9;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+
+.par {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.h4 {
+    font-family: Forum;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.par1 {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 85px;
+}
+
+.a {
+    margin-left: 50px;
+}
+
+.a:hover {
+    background-color: #333;
+    color: #f4f4f4;
+    size: 2em;
+}
+
+.inst {
+    background-color: #272727;
+    inset: 100%;
+}
+
+.img1 {
+    margin-right: 40px;
+}
+
+.img2 {
+    margin-right: 40px;
+}
+
+.img3 {
+    margin-right: 60px;
+}
