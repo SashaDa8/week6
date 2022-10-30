@@ -1,0 +1,298 @@
+  body {
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      margin: 0px 0px 148px 0px;
+  }
+
+
+  header {
+
+      position: absolute;
+      background-image: url(./assets/images/nebo.png);
+      width: 100vw;
+      height: 372px;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 1089px;
+  }
+
+  footer {
+      height: 148px;
+      width: 100vw;
+      left: 0px;
+      top: 1313px;
+      border-radius: 0px;
+      background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+      position: absolute;
+  }
+
+  h1,
+  #par1 {
+      margin-left: 145px;
+  }
+
+  div {
+      background: #003395;
+      height: 75px;
+      width: 100vw;
+      margin-left: 0px;
+      margin-top: 372px;
+      margin-bottom: 1014px;
+      margin-right: 0px;
+      border-radius: 0px;
+  }
+
+  address {
+      position: absolute;
+      width: 198px;
+      height: 20px;
+      left: 1095px;
+      top: 45px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11.7px;
+      line-height: 163.35%;
+      /* identical to box height, or 19px */
+      text-align: right;
+      /* Colors/White */
+      color: #FCFCFC;
+
+  }
+
+  h1 {
+      position: absolute;
+      margin-top: 120px;
+      font-family: Roboto;
+      font-size: 54px;
+      font-weight: 800;
+      line-height: 63px;
+      letter-spacing: 0em;
+      text-align: left;
+      size: 754px;
+      color: #003395;
+
+      animation-name: localize;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes localize {
+      0% {
+          opacity: 0%;
+      }
+
+      50% {
+          opacity: 50%;
+      }
+
+      75% {
+          opacity: 100%;
+      }
+
+      100% {
+          opacity: 50%;
+      }
+  }
+
+  h2 {
+      position: absolute;
+      left: 148px;
+      right: 1002px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      /* identical to box height */
+      color: #003395;
+  }
+
+  h3 {
+      position: absolute;
+      padding: 14px 17px 14px 17px;
+      height: 32px;
+      width: 290px;
+      margin: 15px 515px 893px 15px;
+      background: #24B0FF;
+      font-family: Roboto;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
+  }
+
+  hr {
+      position: absolute;
+      width: 754px;
+      height: 0px;
+      left: 147px;
+      border: 1px solid #003395;
+      background-color: #003395;
+  }
+
+  .news {
+      display: inline-block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 362px;
+      height: 244px;
+      left: 931px;
+      top: 503px;
+      border: 2px solid #33008D;
+  }
+
+  .par {
+      margin-top: 0px;
+      left: 147px;
+      border-radius: nullpx;
+      position: absolute;
+      height: 120px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 28px;
+      color: #30233D;
+      width: 754px;
+  }
+
+  .some {
+      display: inline-block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 362px;
+      height: 352.6px;
+      left: 931px;
+      border: 2px solid #33008D;
+      top: 802px;
+  }
+
+  #head1,
+  #head2,
+  #head3,
+  #head4 {
+      position: absolute;
+      color: white;
+      text-decoration: none;
+      border-radius: nullpx;
+      height: 22px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 37px;
+      letter-spacing: 2px;
+      text-align: left;
+      top: 399px;
+  }
+
+  #head1 {
+      width: 58px;
+      left: 149px;
+  }
+
+  #head2 {
+      width: 84px;
+      left: 269px;
+  }
+
+  #head3 {
+      width: 50px;
+      left: 415px;
+  }
+
+  #head4 {
+      width: 61px;
+      left: 527px;
+  }
+
+  #par1 {
+      position: absolute;
+      height: 24px;
+      width: 899px;
+      top: 210px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0px;
+      text-align: left;
+  }
+
+  #par2 {
+      top: 580px;
+  }
+
+  #par3 {
+      top: 810px;
+  }
+
+  #par4 {
+      top: 1073px;
+  }
+
+  #hr1 {
+      top: 504px;
+      display: inline-block;
+  }
+
+  #hr2 {
+      top: 564px
+  }
+
+  #hr3 {
+      top: 724px
+  }
+
+  #hr4 {
+      top: 785px;
+      display: inline-block;
+  }
+
+  #hr5 {
+      top: 997px
+  }
+
+  #hr6 {
+      top: 1057px
+  }
+
+  #mnogie {
+      position: absolute;
+      height: 32px;
+      width: 330px;
+      margin: 90px 515px 800px 15px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #30233D;
+  }
+
+  #mnogie a {
+      color: #30233D
+  }
+
+  #wel {
+      top: 510px;
+      bottom: 912px;
+  }
+
+  #welc {
+      top: 730px;
+      bottom: 700px;
+  }
+
+  #more {
+      margin-top: -440px;
+  }
+
+  #menu :hover {
+      color: aqua;
+      font-size: 22px;
+  }
